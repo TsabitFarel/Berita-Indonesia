@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightred"
+    tools:context=".Main.splashscreen">
+
+    <ImageView
+        android:layout_width="209dp"
+        android:layout_height="164dp"
+        android:layout_centerInParent="true"
+        app:srcCompat="@drawable/indonesiabuttonflag" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/paytone_one"
+        android:layout_marginBottom="10dp"
+        android:gravity="center_horizontal"
+        android:layout_alignParentBottom="true"
+        android:text="BERITA INDONESIA"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
